@@ -23,6 +23,7 @@ function App() {
       <Route path='/admin' element={<AdminPage />}>
         <Route index element={<Admin />} />
       </Route>
+      {/* Single Page */}
       <Route path='/tetlatet' element={<TetlaTet />} />
     </Routes>
   );
